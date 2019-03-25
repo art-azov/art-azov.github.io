@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Kyrsiv2; /* Гарнитура шрифта */
+    src: url(fonts/14727.otf); /* Путь к файлу со шрифтом */
+}
+body {
+    background-image: url(img/16.jpg)
+}
+div {
+    box-sizing: border-box;
+}
+.header, .footer, .nav{
+    overflow: hidden;
+    clear: both;
+}
+.nav {
+    display: block;
+    background: #DC143C; 
+    
+}
+.nav .menu {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none outside none;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.nav li a {
+    display: block;
+    height: 100%;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+}
+.nav li:hover a {
+    background: #FF6347;
+}
+.levo {
+    display: block;
+    width: 38%;
+    float: left;
+    border-right: double;
+    padding: 0 13px 0 0;
+}
+.pravo {
+    display: block;
+    width: 60%;
+    float: right;
+}
+h1 {
+    font-family: Kyrsiv2;
+    text-align: center;
+    color: rgb(129, 88, 60);
+}
+.footer {
+    display: block;
+    background:#DC143C;
+    height: 50px;
+    }
+.footer p {
+    color: azure;
+}
+li {
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+}
+.jr {
+    font-style: italic;
+
+}
+.jt {
+    font-weight: 900;
+}
+.persona {
+    width: 24.2%;
+    background: white;
+    position: relative;
+    float: left;
+    margin: 0 0 10px 10px;
+    padding: 20px;
+}
+.persona h3 {
+    text-align: center;
+    margin-bottom: -15px;
+    }
+.persona p {
+    text-align: center;
+}
+.nomera{
+width: 58%;
+float: left;
+margin: 0 0 10px 0;
+}
+.nomera-text {
+width: 40%;
+float: right;
+}
+.uslygi {
+    width: 32%;
+    background: white;
+    position: relative;
+    float: left;
+    margin: 0 0 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
